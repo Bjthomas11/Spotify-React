@@ -1,10 +1,16 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import Login from "./components/login/Login";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div>Test</div>
+    <Router>
+      <div className="spotify-container">
+        <Login />
+      </div>
+    </Router>
   );
 }
 
