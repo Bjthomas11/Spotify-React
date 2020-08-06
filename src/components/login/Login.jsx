@@ -8,7 +8,11 @@ import "./login.scss";
 const Login = () => {
   return (
     <div className="login-container">
-      <img src={logo} alt="Spotify Logo" />
+      <img
+        // src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
+        src={logo}
+        alt="Spotify Logo"
+      />
       <a href={loginURL} className="login-link">
         LOGIN WITH SPOTIFY
       </a>

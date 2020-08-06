@@ -1,20 +1,20 @@
 .login-container {
-  display: grid;
-  place-items: center;
-  height: 100vw;
-  background: #000;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #000;
 
-  img {
-    object-fit: contain;
-    width: 100%;
-  }
+    img {
+        object-fit: contain;
+        width: 60%;
+    }
 
-  a.login-link {
-    padding: 20px;
-    border-radius: 99px;
-    background-color: #1db954;
-    color: #fff;
-    font-weight: 800;
-    text-decoration: none;
-  }
+    a.login-link {
+        padding: 20px;
+        border-radius: 99px;
+        background-color: #1db954;
+        color: #fff;
+        font-weight: 800;
+        text-decoration: none;
+    }
 }
