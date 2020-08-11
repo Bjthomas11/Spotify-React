@@ -5,14 +5,14 @@ import Footer from "./footer/Footer";
 
 import "./webPlayer.scss";
 
-const WebPlayer = ({ spotifyInstance }) => {
+const WebPlayer = ({ spotify }) => {
   return (
     <div className="web-player-container">
       <div className="web-player-body">
         <Sidebar />
-        <Body spotifyInstance={spotifyInstance} />
+        <Body spotify={spotify} />
       </div>
-      <Footer />
+      <Footer spotify={spotify} />
     </div>
   );
 };

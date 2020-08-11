@@ -13,8 +13,8 @@ const Sidebar = () => {
   return (
     <div className="sidebar-container">
       <img
-        // src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
-        src={logo}
+        src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
+        // src={logo}
         alt="Spotify Logo"
         className="sidebar-spotify-logo"
       />
