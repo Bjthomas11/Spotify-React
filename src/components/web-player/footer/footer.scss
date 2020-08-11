@@ -26,6 +26,16 @@
             object-fit: contain;
             margin-right: 20px;
         }
+
+        .footer-singInfo {
+            h4 {
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-style: 12px;
+            }
+        }
     }
 
     .footer-center {
@@ -43,6 +53,14 @@
             }
 
         }
+
+        .footer-icon,
+        .footer-green {
+            &:hover {
+                transition: transform 0.2s ease-in-out;
+                transform: scale(1.2) !important;
+            }
+        }
     }
 
     .footer-right {
@@ -50,6 +68,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        .MuiSlider-root {
+            color: #1ed760;
+        }
     }
 
 }

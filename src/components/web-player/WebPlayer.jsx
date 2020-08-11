@@ -10,7 +10,7 @@ const WebPlayer = ({ spotifyInstance }) => {
     <div className="web-player-container">
       <div className="web-player-body">
         <Sidebar />
-        <Body />
+        <Body spotifyInstance={spotifyInstance} />
       </div>
       <Footer />
     </div>
